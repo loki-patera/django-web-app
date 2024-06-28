@@ -11,6 +11,6 @@ admin.site.register(Band, BandAdmin) # nous modifions cette ligne, en ajoutant u
 
 class ListingAdmin(admin.ModelAdmin):
 
-  list_display = ('title', 'type', 'year', 'sold')
+  list_display = ('title', 'band', 'type', 'sold')
 
 admin.site.register(Listing, ListingAdmin)
